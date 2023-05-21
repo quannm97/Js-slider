@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="index.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+            integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+    </head>
+    <body>
+        <div class="slider">
+            <div class="slider-container">
+                <div
+                    class="slide active"
+                    style="
+                        background-image: url('https://images.unsplash.com/photo-1431444393712-19267bd26144?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1191&q=80');
+                    "
+                >
+                    <div class="info">
+                        <h1>Nature View</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Voluptatum.
+                        </p>
+                    </div>
+                </div>
+                <div
+                    class="slide"
+                    style="
+                        background-image: url('https://images.unsplash.com/photo-1486016006115-74a41448aea2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1047&q=80');
+                    "
+                >
+                    <div class="info">
+                        <h1>Rain View</h1>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing
+                            elit. Amet, vero earum perspiciatis officia
+                        </p>
+                    </div>
+                </div>
+                <div
+                    class="slide"
+                    style="
+                        background-image: url('https://images.unsplash.com/photo-1551244072-5d12893278ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80');
+                    "
+                >
+                    <div class="info">
+                        <h1>Ocean View</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Incidunt recusandae unde autem
+                        </p>
+                    </div>
+                </div>
+                <!-- The rest of the slides -->
+            </div>
+            <div class="eraser" id="eraser"></div>
+            <div class="buttons-container" id="buttons-container">
+                <button id="previous"><i class="fa fa-arrow-left"></i></button>
+                <button id="next"><i class="fa fa-arrow-right"></i></button>
+            </div>
+        </div>
+
+        <footer>
+            <p>
+                Created with <i class="fa fa-heart"></i> by
+                <a target="_blank" href="https://florin-pop.com">QQ</a>
+            </p>
+        </footer>
+
+        <script src="index.js"></script>
+    </body>
+</html>
